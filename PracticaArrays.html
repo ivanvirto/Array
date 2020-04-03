@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+         var valores = [true,5,false,"hola", "adios", 2];
+         if (valores[3].length < valores[4].length){
+             alert("el texto mayor es adios"); 
+         }
+
+         resultadoT=valores[0]||valores[2]
+         alert("boleano true: " + resultadoT)
+         resultadoF=valores[0]&&valores[2]
+         alert("boleano true: " + resultadoF)
+
+         var suma = valores[1] + valores[5];
+         alert("El resultado de la suma es: "+suma);
+         var rets = valores[1] - valores[5];
+         alert("El resultado de la resta es: "+rets);
+         var mult = valores[1] * valores[5];
+         alert("El resultado de la multiplicacion es: "+mult);
+         var div = valores[1] / valores[5];
+         alert("El resultado de la division es: "+div);
+         var divent = valores[1] % valores[5];
+         alert("El resultado de la division entera es: "+divent);
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
